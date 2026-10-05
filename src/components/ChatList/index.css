@@ -1,0 +1,21 @@
+.chat-list {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow-y: auto;
+	padding: var(--space-2) var(--space-1);
+	background: transparent;
+	overscroll-behavior: contain;
+	scrollbar-color: var(--color-cyan) transparent;
+	scrollbar-width: thin;
+}
+
+.chat-list::-webkit-scrollbar {
+	width: 8px;
+}
+
+.chat-list::-webkit-scrollbar-thumb {
+	background: linear-gradient(var(--color-cyan), var(--color-purple));
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	border-radius: var(--radius-pill);
+}

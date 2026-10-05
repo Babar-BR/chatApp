@@ -1,0 +1,57 @@
+:root {
+	color-scheme: dark;
+
+	--color-navy: #0a0f2c;
+	--color-cyan: #22d3ee;
+	--color-purple: #8b5cf6;
+	--color-text: #ffffff;
+	--color-text-muted: rgb(255 255 255 / 72%);
+	--color-border: rgb(255 255 255 / 12%);
+	--color-message: rgb(255 255 255 / 8%);
+	--color-message-hover: rgb(255 255 255 / 13%);
+	--color-input: rgb(10 15 44 / 78%);
+	--gradient-accent: linear-gradient(135deg, var(--color-cyan), var(--color-purple));
+	--shadow-app: 0 24px 70px rgb(0 0 0 / 40%);
+	--shadow-cyan: 0 0 16px rgb(34 211 238 / 45%);
+
+	--space-1: 4px;
+	--space-2: 8px;
+	--space-3: 12px;
+	--space-4: 16px;
+	--space-5: 20px;
+	--space-6: 24px;
+
+	--radius-sm: 8px;
+	--radius-md: 14px;
+	--radius-pill: 999px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	min-height: 100dvh;
+	background: url("./assets/ae96cc74-3662-4e08-be7b-8c2ea9a49be3.png") center / cover no-repeat fixed;
+	background-color: var(--color-navy);
+	color: var(--color-text);
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+button,
+input {
+	font: inherit;
+}
+
+button {
+	color: inherit;
+}
